@@ -1,0 +1,1 @@
+Outputs of these examples are under tests folder.

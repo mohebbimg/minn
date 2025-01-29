@@ -1,0 +1,1 @@
+In case you want to recompute weights for DP algorithm based on a new dataset, you can use compute_weights_of_NN.py

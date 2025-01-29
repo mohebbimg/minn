@@ -1,0 +1,14 @@
+python3.10 scripts/run_MINN_on_pairs_of_microRNA_and_cts.py CAAAGUGCUUACAGUGCAGGUAG AUUCGCUACCGCCUGCAGCACUACU
+Model loaded successfully from ./model_of_MINN.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step
+MicroRNA seq: CAAAGUGCUUACAGUGCAGGUAG
+Candidate Target Site: AUUCGCUACCGCCUGCAGCACUACU
+Prediction score: 0.9596143364906311
+
+python3.10 scripts/run_trained_MINN_on_testset_file.py sample_data/test_set.csv
+Model loaded successfully from ./model_of_MINN.keras
+566/566 ━━━━━━━━━━━━━━━━━━━━ 5s 9ms/step
+Predictions made successfully on the input file.
+Predictions saved to sample_data/test_set.predictions.txt
+AUPRC on the input set: 0.9377904246394684
+
