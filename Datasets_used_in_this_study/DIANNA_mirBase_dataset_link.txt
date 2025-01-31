@@ -1,0 +1,4 @@
+DIANA TarBase:
+Experimentally verified microRNA gene interactions
+Available at: http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=site/index
+(The size of file we downloaded from this address was more than 600 mb, and Github doesn't allow files larger than 25mb. We recommend users to directly download this dataset from the above address.)
